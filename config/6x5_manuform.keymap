@@ -54,11 +54,11 @@
 
         Nav {
             bindings = <
-&none             &none          &none       &none  &none      &none  &none  &none      &none  &none          &none             &none
-&kp TAB           &none          &none       &none  &none      &none  &none  &none      &none  &none          &none             &none
-&kp LEFT_SHIFT    &none          &none       &none  &none      &none  &none  &none      &none  &none          &none             &none
-&kp LEFT_CONTROL  &none          &none       &none  &none      &none  &none  &none      &none  &none          &none             &none
-&none             &kp BACKSPACE  &kp LSHIFT  &none  &kp SPACE  &none  &none  &kp SPACE  &none  &kp BACKSPACE  &kp LEFT_CONTROL  &none
+&none             &none          &none       &none  &none      &none  &none  &none             &none     &none              &none             &none
+&kp TAB           &none          &none       &none  &none      &none  &none  &kp LEFT_BRACKET  &kp UP    &kp RIGHT_BRACKET  &none             &none
+&kp LEFT_SHIFT    &none          &none       &none  &none      &none  &none  &kp LEFT          &kp DOWN  &kp RIGHT_ARROW    &none             &none
+&kp LEFT_CONTROL  &none          &none       &none  &none      &none  &none  &kp MINUS         &none     &kp EQUAL          &none             &none
+&none             &kp BACKSPACE  &kp LSHIFT  &none  &kp SPACE  &none  &none  &kp SPACE         &none     &kp BACKSPACE      &kp LEFT_CONTROL  &none
             >;
         };
 
