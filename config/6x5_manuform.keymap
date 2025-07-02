@@ -22,11 +22,11 @@
             // |    2   |  2  | f   | 6    | 4    | 1    |                    | 2    | 1     | w     | s    | n     |  a    |
 
             bindings = <
-&none             &none          &none           &none  &none      &none  &none  &none      &none      &none          &none             &none
-&kp TAB           &kp Q          &kp W           &kp F  &kp P      &kp G  &kp J  &kp L      &kp U      &kp Y          &none             &none
-&kp LEFT_SHIFT    &kp A          &kp R           &kp S  &kp T      &kp D  &kp H  &kp N      &kp E      &kp I          &kp O             &kp ENTER
-&kp LEFT_CONTROL  &kp Z          &kp X           &kp C  &kp V      &kp B  &kp K  &kp M      &kp COMMA  &kp DOT        &none             &none
-&none             &kp BACKSPACE  &kp LEFT_SHIFT  &mo 3  &kp SPACE  &none  &mo 2  &kp SPACE  &mo 1      &kp BACKSPACE  &kp LEFT_CONTROL  &mo 1
+&none             &none          &none           &none  &none      &none  &none  &none  &none      &none      &none             &none
+&kp TAB           &kp Q          &kp W           &kp F  &kp P      &kp G  &kp J  &kp L  &kp U      &kp Y      &none             &none
+&kp LEFT_SHIFT    &kp A          &kp R           &kp S  &kp T      &kp D  &kp H  &kp N  &kp E      &kp I      &kp O             &kp ENTER
+&kp LEFT_CONTROL  &kp Z          &kp X           &kp C  &kp V      &kp B  &kp K  &kp M  &kp COMMA  &kp DOT    &none             &none
+&none             &kp BACKSPACE  &kp LEFT_SHIFT  &mo 3  &kp SPACE  &none  &mo 2  &mo 1  &kp Q      &kp SPACE  &kp LEFT_CONTROL  &kp W
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
